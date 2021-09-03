@@ -3,6 +3,7 @@
 
 /* component */
 @import "./component/header-nav.css";
+@import "./component/upper.css";
 
 /* screen */
 @import "./screen/whoAmI.css";
@@ -10,13 +11,13 @@
 @import "./screen/archiving.css";
 @import "./screen/project.css";
 @import "./screen/career.css";
+@import "./screen/footer.css";
 
 body {
     font-family: 'Gothic A1', sans-serif;
     font-family: 'Mukta', sans-serif;
-    height: 5000px;
 }
 
-a, input {
+a, input, img {
     cursor: pointer;
 }
