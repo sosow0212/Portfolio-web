@@ -7,6 +7,11 @@ body {
     height: 5000px;
 }
 
+a, input {
+    cursor: pointer;
+}
+
+
 .header {
     position: fixed;
     top: 0;
@@ -14,7 +19,7 @@ body {
     right: 0;
     height: 75px;
     color: rgb(0, 0, 0);
-    background-color: #F5F5F5;
+    background-color: rgba(245, 245, 245, 0.6);
     font-weight: bold;
     display: flex;
     justify-content: space-between;
@@ -23,11 +28,18 @@ body {
     font-size: 20px;
 }
 
-.header h1 {
-    margin-left: 150px;
+.header-title-a {
+    margin-left: 100px;
     font-size: 25px;
     font-weight: 900;
+    text-decoration: none;
+    color: black;
 }
+
+.header-title-a:hover {
+    color:tomato;
+}
+
 
 .nav a {
     text-decoration: none;
@@ -37,11 +49,11 @@ body {
 }
 
 .nav a:hover {
-    cursor: pointer;
+    color: tomato;
 }
 
 .nav a:last-child {
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 
@@ -51,10 +63,11 @@ body {
     margin-top: 75px;
     height: 500px;
     width: 100%;
-    background-color: aquamarine;
+    background-color:#00983d;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #F5F5F5;
 }
 
 .shortIntro-text {
@@ -65,14 +78,19 @@ body {
     margin-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    border-bottom: 5px solid rgba(0, 0, 0, 0.6);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.6);
     font-size: 40px;
     font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 5px;
+    
 }
 
 .shortIntro-text p{
     font-size: 20px;
     font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 5px;
 }
 
 .shortIntro-button__more {
@@ -81,14 +99,20 @@ body {
     border-radius: 25px;
     border: none;
     text-align: center;
-    background-color: tomato;
-    color: #F5F5F5;
+    background-color: white;
+    color: black;
+}
+
+.shortIntro-button__more:hover {
+    background-color: #ffc80d;
+    color: black;
+    transition: 0.3s ease-in-out;
 }
 
 
 /* Who is me */
 .who {
-    height: 500px;
+    height: 600px;
     background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
@@ -97,28 +121,38 @@ body {
 }
 
 .who-title {
-    padding-bottom: 15px;
-    margin: 40px 0px;
     border-bottom: 5px solid rgba(0, 0, 0, 0.6);
     font-size: 55px;
     font-weight: 900;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    
 }
 
 .who-container {
-    margin-top: 30px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
 
+.who-container-box {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+.who-container-box1 {
+    margin-bottom: 30px;
 }
 
 .who-show {
-    display: flex;
-    justify-content: center;
     width: 400px;
     height: 100px;
-    margin-bottom: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .who-show-icon i {
@@ -134,21 +168,23 @@ body {
 }
 
 .who-show-info h1 {
-    margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
 }
 
 .who-show-info p {
     font-size: 20px;
     font-weight: 400;
+    letter-spacing: 2px
 }
 
 
 /* Archiving */
 
 .archiving {
-    height: 700px;
+    height: 800px;
     background-color: #222222;
     display: flex;
     flex-direction: column;
@@ -156,8 +192,9 @@ body {
 }
 
 .archiving-text {
-    padding-bottom: 15px;
-    margin: 40px 0px;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    margin-bottom: 50px; 
     border-bottom: 5px solid #F5F5F5;
     font-size: 55px;
     font-weight: 900;
@@ -200,6 +237,7 @@ body {
     text-align: center;
     margin-top: 8px;
     margin-left: 10px;
+    letter-spacing: 2px
 }
 
 .archiving-box-text__section {
@@ -207,16 +245,20 @@ body {
 }
 
 .archiving-box-text__section a {
-    margin-bottom: 10px;
+    margin-bottom: 3px;
+    text-decoration: none;
+    color: rgb(50, 50, 254);
 }
 
 .archiving-box-text__section p {
     margin-top: 10px;
     margin-bottom: 40px;
+    letter-spacing: 1px
 }
 
 .archiving-box-text__section li{
     margin: 15px 0px;
+    letter-spacing: 2px
 }
 
 .archiving-container-box1 {

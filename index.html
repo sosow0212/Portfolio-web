@@ -9,101 +9,112 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<body>
+<body id="sub-body">
+    <!-- TITLE : 
+    padding-top: 80px;
+    padding-bottom: 10px;
+    margin-bottom: 50px; 
+    -->
+
     <!-- Header top navigation bar -->
     <header class="header">
-        <h1>Yoon's Portfolio</h1>
+        <a class="header-title-a" href="#sub-body">Yoon's Portfolio</a>
         <div class="nav">
-            <a href="#">Who am I</a>
-            <a href="#">Archiving</a>
-            <a href="#">Project</a>
-            <a href="#">Career</a>
+            <a href="#sub-whoAmI">Who am I</a>
+            <a href="#sub-archiving">Archiving</a>
+            <a href="#sub-project">Project</a>
+            <a href="#sub-career">Career</a>
         </div>
     </header>
 
-    <!-- Short sIntro -->
+    <!-- Short Intro -->
     <div class="shortIntro">
         <div class="shortIntro-text">
             <h1>이재윤<br>웹 개발자 포트폴리오</h1>
             <p>안녕하세요.<br>
-                프론트엔드 개발 지망생입니다.<br>
-                주변을 격려하면서 화합하며 함께 가는게 저의 장점입니다.
+                웹 개발을 하는 이재윤입니다.<br>
+                빠른 조직 적응력과, 화합을 위해 노력하는 것이 저의 장점입니다.
             </p>
-            <input type="button" value="더 알아보기" class="shortIntro-button__more">
+            <input type="button" value="더 알아보기 ↓" class="shortIntro-button__more">
         </div>
     </div>
 
     <!-- Who am I // sub-menu : font-size = 55px / font-weight = 900 -->
-    <div class="who">
+    <div class="who" id="sub-whoAmI">
         <div class="who-title sub-menu">
             <h1>WHO AM I</h1>
         </div>
 
         <div class="who-container">
-            <div class="who-show">
-                <span class="who-show-icon">
-                    <i class="fas fa-user"></i>
-                </span>
-                <div class="who-show-info">
-                    <h1 class="who-show-info__id">이름</h1>
-                    <p class="who-show-info__me">이재윤</p>
+            <div class="who-container-box1 who-container-box">
+                <div class="who-show">
+                    <span class="who-show-icon">
+                        <i class="fas fa-user"></i>
+                    </span>
+                    <div class="who-show-info">
+                        <h1 class="who-show-info__id">이름</h1>
+                        <p class="who-show-info__me">이재윤</p>
+                    </div>
                 </div>
+
+                <div class="who-show">
+                    <span class="who-show-icon">
+                        <i class="fas fa-calendar"></i>
+                    </span>
+                    <div class="who-show-info">
+                        <h1 class="who-show-info__id">생년월일</h1>
+                        <p class="who-show-info__me">1999.02.12</p>
+                    </div>
+                </div>
+
+                <div class="who-show">
+                    <span class="who-show-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <div class="who-show-info">
+                        <h1 class="who-show-info__id">주소지</h1>
+                        <p class="who-show-info__me">경기도 용인시 기흥구</p>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="who-show">
-                <span class="who-show-icon">
-                    <i class="fas fa-calendar"></i>
-                </span>
-                <div class="who-show-info">
-                    <h1 class="who-show-info__id">생년월일</h1>
-                    <p class="who-show-info__me">1999.02.12</p>
+            <div class="who-container-box2 who-container-box">
+                <div class="who-show">
+                    <span class="who-show-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </span>
+                    <div class="who-show-info">
+                        <h1 class="who-show-info__id">연락처</h1>
+                        <p class="who-show-info__me">010-2037-7513</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="who-show">
-                <span class="who-show-icon">
-                    <i class="fas fa-map-marker-alt"></i>
-                </span>
-                <div class="who-show-info">
-                    <h1 class="who-show-info__id">주소지</h1>
-                    <p class="who-show-info__me">경기도 용인시 기흥구</p>
+                <div class="who-show">
+                    <span class="who-show-icon">
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <div class="who-show-info">
+                        <h1 class="who-show-info__id">이메일</h1>
+                        <p class="who-show-info__me">sosow0212@naver.com</p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="who-show">
-                <span class="who-show-icon">
-                    <i class="fas fa-phone-alt"></i>
-                </span>
-                <div class="who-show-info">
-                    <h1 class="who-show-info__id">연락처</h1>
-                    <p class="who-show-info__me">010-2037-7513</p>
-                </div>
-            </div>
-
-            <div class="who-show">
-                <span class="who-show-icon">
-                    <i class="fas fa-envelope"></i>
-                </span>
-                <div class="who-show-info">
-                    <h1 class="who-show-info__id">이메일</h1>
-                    <p class="who-show-info__me">sosow0212@naver.com</p>
-                </div>
-            </div>
-
-            <div class="who-show">
-                <span class="who-show-icon">
-                    <i class="fas fa-university"></i>
-                </span>
-                <div class="who-show-info">
-                    <h1 class="who-show-info__id">학력</h1>
-                    <p class="who-show-info__me">명지대학교<br>(정보통신공학과)</p>
+                <div class="who-show">
+                    <span class="who-show-icon">
+                        <i class="fas fa-university"></i>
+                    </span>
+                    <div class="who-show-info">
+                        <h1 class="who-show-info__id">학력</h1>
+                        <p class="who-show-info__me">명지대학교<br>(정보통신공학과)</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Archiving -->
-    <div class="archiving">
+    <div class="archiving" id="sub-archiving">
         <div class="archiving-text">
             <h1>ARCHIVING</h1>
         </div>
@@ -115,7 +126,7 @@
                         <h1>Github</h1>
                     </div>
                     <div class="archiving-box-text__section">
-                        <a href="#">github.com/sosow0212</a>
+                        <a href="https://www.github.com/sosow0212" target="_blank">github.com/sosow0212</a>
                         <p>소스 코드 저장소 입니다.</p>
                         <li>토이 프로젝트, 프로그램 등 소스 코드</li>
                         <li>혼자서 공부했던 소스 코드</li>
@@ -130,7 +141,7 @@
                         <h1>Naver Blog</h1>
                     </div>
                     <div class="archiving-box-text__section">
-                        <a href="#">blog.naver.com/sosow0212</a>
+                        <a href="https://blog.naver.com/sosow0212" target="_blank">blog.naver.com/sosow0212</a>
                         <p>공부 및 지식공유 목적의 블로그입니다.</p>
                         <li>웹 프로젝트 설명</li>
                         <li>회고록을 통한 공부 돌아보기</li>
@@ -142,6 +153,13 @@
         </div>
     </div>
 
+
+
+    <!-- Project -->
+
+
+
+    <!-- Career -->
 
 
     <!-- Fontawesome 아이콘 -->
