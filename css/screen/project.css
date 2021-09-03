@@ -1,0 +1,120 @@
+
+/* project */
+
+.project {
+    height: 2300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1D809F;
+}
+
+.project-text {
+    color: #F5F5F5;
+    border-bottom: 5px solid #F5F5F5;
+    font-size: 55px;
+    font-weight: 900;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.project-text-h1 {
+    margin-bottom: 5px;
+}
+
+
+/* 전체 project를 담는 큰 박스 */
+.project-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* 각각의 project를 담는 박스 */
+.project-container {
+    margin: 10px 0px;
+    margin-bottom: 50px;
+    height: 900px;
+    width: 1100px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.project-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container-text__h1 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.project-container-text__p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    opacity: 0.5;
+}
+
+
+/* 각각의 project 속 설명 */
+.project-container-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+
+.project-container-content__img {
+    display: block;
+    width: 480px;
+    height: 470px;
+    margin: 0px 30px;
+}
+
+
+/* 프로젝트 설명 */
+.project-container-content__text{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.project-container-content__text-p {
+    padding-bottom: 20px;
+    margin-right: 30px;
+    border-bottom: 3px solid black;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    
+}
+
+.project-container-content__text-ul {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.project-container-content__text-ul span {
+    margin-right: 30px;
+    font-weight: 900;
+}
+
+.project-container-content__text-ul i {
+    margin-right: 5px;
+}
+
+.project-container-content__text-ul li {
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}

@@ -1,0 +1,45 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(245, 245, 245, 0.6);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+
+.header-title-a {
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    color: black;
+}
+
+.header-title-a:hover {
+    color:tomato;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 30px 20px;
+    margin: 0px 3px;
+}
+
+.nav a:hover {
+    color: tomato;
+}
+
+.nav a:last-child {
+    margin-right: 100px;
+}
+
+

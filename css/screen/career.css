@@ -1,0 +1,59 @@
+.career {
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    color: black;
+}
+.career-text {
+    color: black;
+    border-bottom: 5px solid black;
+    font-size: 55px;
+    font-weight: 900;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+
+
+/* 각각의 career content를 합친 박스 */
+.career-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 각각의 career content */
+.career-content-box {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+.career-content-box__img {
+    height: 300px;
+    width: 300px;
+    margin-left: 200px;
+    padding-right: 60px;
+    border-right: 3px solid black;
+    
+}
+
+.career-content-box-text {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    margin: 0px 40px;
+    margin-right: 190px;
+}
+
+.career-content-box-text__h1 {
+    font-size: 30px;
+}
+
+.career-content-box-text__p {
+    margin: 20px 0px;
+    font-size: 20px;
+}
